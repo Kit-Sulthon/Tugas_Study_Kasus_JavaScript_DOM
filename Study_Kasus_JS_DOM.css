@@ -1,0 +1,76 @@
+body{ /*Untuk Keseluruhan Body*/
+        font-family: sans-serif;
+        background: #C0C0C0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+}
+h1 {
+        text-align: center;
+        font-weight: 300;
+}
+
+.tulisan_login{
+        text-align: center;
+        text-transform: uppercase;
+}
+
+.kotak_login{
+        width: 350px;
+        background: white;
+        text-align: left;
+        margin: 80px auto;
+        padding: 30px 20px;
+}
+.pessan {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+label{
+        font-size: 11pt;
+}
+
+.form_login{
+        box-sizing : border-box;
+        width: 100%;
+        padding: 10px;
+        font-size: 11pt;
+        margin-bottom: 20px;
+        text-align: left;
+}
+
+.tombol_login{
+        background: #FF7F00;
+        color: white;
+        font-size: 11pt;
+        width: 100%;
+        border: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+}
+.tombol_lanjut{
+        background: red;
+        color: white;
+        font-size: 18pt;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        padding-left: 60px;
+        padding-right: 50px;
+        
+}
+.tombol_lanjut:hover {
+            background-color: #0056b3;
+}
+.link{
+        color: #232323;
+        text-decoration: none;
+        font-size: 10pt;
+}
